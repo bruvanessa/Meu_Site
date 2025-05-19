@@ -1,0 +1,93 @@
+/*Reset de margens e paddings padrão*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*corpo da pagina*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding-top: 60px; /*espaço para o menu fixo*/
+}
+
+/*menu fixo*/
+nav {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover{
+  color: #ffcc20;  
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a {
+    color: white;
+}
+    
+    /*conteudo*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*estilo do formulario*/
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+/*botão de envio*/
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: brackground-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #218838;
+}   
+
+/*links de contato*/
+.container p a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
