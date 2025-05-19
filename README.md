@@ -4,7 +4,7 @@ Este é um projeto desenvolvido como parte de um exercício de desenvolvimento w
 
 ## 🔗 Acesso ao Site
 
-👉 Você pode acessar o site publicado aqui: [https://seunome.hostgratuito.com](#)  
+👉 Você pode acessar o site publicado aqui: [https://bruvanessa.github.io/Meu_Site/](#)  
 _(Substitua pelo link real após publicação)_
 
 ---
